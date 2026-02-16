@@ -1,0 +1,145 @@
+/*Global Reset & Base Styling*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: 1.6;
+    background-color: #f9f9f9;
+    color: #251313;
+}
+
+/*Container*/
+.cointainer {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*Header*/
+header {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00bcd4;
+}
+
+/*Hero Section*/
+#hero {
+    background: linear-gradient(to right, #007bff, #00bcd4);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#hereo h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: white;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e0f7fa;
+}
+
+/*Services Section*/
+#services {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.service-list  {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.service-item {
+    background-color: #f0f0f0;
+    padding: 30px;
+    border-radius: 10px;
+    flex: 1 1 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+}
+
+/*About Section*/
+#about {
+    padding: 60px  20px;
+    background-color: #e0f7fa;
+    text-align: center;
+}
+
+/*Contact Section*/
+#contact {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contact input
+#contact textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+#contact button {
+    padding: 12px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
